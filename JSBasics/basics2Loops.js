@@ -1,3 +1,6 @@
+
+const Person = require('./basics7Class');
+//import{Person} from './basics7Class'
 const flag = true
 
 if (!flag) {
@@ -40,3 +43,6 @@ while(required){
     required=false;
 
 }
+
+let person = new Person("Gopal", "Varma")
+console.log(person.fullName())

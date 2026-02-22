@@ -38,4 +38,3 @@ let newQuote = day + "is a gopal day"
 console.log(newQuote)
 console.log( newQuote.indexOf('day')) //6
 console.log( newQuote.indexOf('day',7)) //21
-
